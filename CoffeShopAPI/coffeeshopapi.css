@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+}
+
+.order{
+    list-style-type: none;
+    background-color: rgb(80, 61, 41);
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 20px;
+    align-items: start;
+    padding-left: 20px;
+    flex-direction: column;
+    width: 300px;
+    
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 12pt;
+}
+
+p {
+    font-size: 12pt;
+    color: #fff;
+
+}
+
+#customersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+}
+
+.customerID {
+display: flex;
+justify-content: left;
+}
+
+.coffeeID {
+display: flex;
+justify-content: left;
+
+}
+
+.emailID {
+    display: flex;
+    justify-content: left;
+    
+    }
